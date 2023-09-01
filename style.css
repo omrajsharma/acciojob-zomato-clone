@@ -52,6 +52,12 @@ header {
 }
 .logo {
     width: 20vw;
+    overflow: hidden;
+    @media (max-width: 768px) {
+    .logo {
+        width: 100%; /* Full width on smaller screens */
+    }
+    }
 }
 .head h3 {
     font-size: 2.1rem;
